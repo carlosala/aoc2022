@@ -10,7 +10,7 @@
   "private": true,
   "scripts": {
     "day": "f(){ ts-node src/$1/run.ts; }; f",
-    "test": "f(){ jest $1; }; f",
+    "test": "f(){ jest src/$1/index.test.ts; }; f",
     "test:all": "jest"
   },
   "devDependencies": {
