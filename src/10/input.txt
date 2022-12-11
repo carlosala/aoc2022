@@ -1,4 +1,3 @@
-export const i = `
 addx 1
 noop
 noop
@@ -138,4 +137,3 @@ addx 3
 noop
 addx -30
 noop
-`;

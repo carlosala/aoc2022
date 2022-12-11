@@ -1,4 +1,3 @@
-export const iTest = `
 R 5
 U 8
 L 8
@@ -7,4 +6,3 @@ R 17
 D 10
 L 25
 U 20
-`;

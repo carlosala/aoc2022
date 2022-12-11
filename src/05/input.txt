@@ -1,4 +1,3 @@
-export const i = `
 [T]     [D]         [L]            
 [R]     [S] [G]     [P]         [H]
 [G]     [H] [W]     [R] [L]     [P]
@@ -511,4 +510,3 @@ move 2 from 1 to 7
 move 7 from 9 to 8
 move 6 from 9 to 3
 move 1 from 6 to 5
-`;

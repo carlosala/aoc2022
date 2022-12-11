@@ -9,12 +9,10 @@ fi
 
 day=$1
 [[ $day -lt 10 ]] && day="0$day"
-file=src/$day/input.ts
+file=src/$day/input.txt
 
 if [[ ! -d src/$day ]]; then
   cp -r src/template src/$day
 fi
 
-echo 'export const i = `' > $file
-curl -sS -b "session=$AUTH_COOKIE" --create-dirs https://adventofcode.com/2022/day/$1/input >> $file
-echo '`;' >> $file
+curl -sS -b "session=$AUTH_COOKIE" --create-dirs https://adventofcode.com/2022/day/$1/input > $file

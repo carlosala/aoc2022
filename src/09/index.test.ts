@@ -1,5 +1,8 @@
+import { readFileSync } from "fs";
+import { resolve } from "path";
 import { partOne, partTwo, prepareInput } from ".";
-import { iTest } from "./testInput";
+
+const iTest = readFileSync(resolve(__dirname, "input.test.txt")).toString();
 
 const input = prepareInput(iTest);
 
